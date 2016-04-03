@@ -1,0 +1,7 @@
+config BR2_PACKAGE_PYTHON_TELEGRAM_BOT
+	bool "python-telegram-bot"
+	depends on BR2_PACKAGE_PYTHON
+	help
+	  A Python wrapper around the Telegram Bot API
+
+	  https://pypi.python.org/pypi/python-telegram-bot
